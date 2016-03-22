@@ -1,0 +1,19 @@
+<?php
+	$dir = "http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']);
+?>
+<SnomIPPhoneMenu>
+<Title>Slideshow Tests</Title>
+<MenuItem>
+<Name>Slideshow old</Name>
+<URL><?php echo $dir. "/slideshow.php"; ?></URL>
+</MenuItem>
+<MenuItem>
+<Name>Slideshow w/o Hist</Name>
+<URL><?php echo $dir. "/slideshow2.php"; ?></URL>
+</MenuItem>
+<MenuItem>
+<Name>local MJPG CAM - adapt IP in php</Name>
+<URL><?php echo $dir. "/imagefetch.php"; ?></URL>
+</MenuItem>
+</SnomIPPhoneMenu>
+

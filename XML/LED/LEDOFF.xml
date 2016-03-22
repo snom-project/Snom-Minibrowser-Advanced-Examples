@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+<Title>LED Control Feature</Title>
+<Prompt>Prompt Text</Prompt>
+<Text>Minibrowser LED to OFF</Text>
+<Led number="1">Off</Led>
+<Led number="2">Off</Led>
+<Led number="3">Off</Led>
+<Led number="4">Off</Led>
+<Led number="5">Off</Led>
+<Led number="6">Off</Led>
+<Led number="7">Off</Led>
+<Led number="8">Off</Led>
+<Led number="9">Off</Led>
+<Led number="10">Off</Led>
+<Led number="11">Off</Led>
+<Led number="12">Off</Led>
+</SnomIPPhoneText>

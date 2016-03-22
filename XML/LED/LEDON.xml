@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+<Title>LED Control Feature</Title>
+<Prompt>Prompt Text</Prompt>
+<Text>This sample page demonstrates the Minibrowser LED control feature.</Text>
+<Led number="1">On</Led>
+<Led number="2">Blink</Led>
+<Led number="3">On</Led>
+<Led number="4">Blink</Led>
+<Led number="5">On</Led>
+<Led number="6">Blink</Led>
+<Led number="7">On</Led>
+<Led number="8">Blink</Led>
+<Led number="9">On</Led>
+<Led number="10">Blink</Led>
+<Led number="11">On</Led>
+<Led number="12">Blink</Led>
+</SnomIPPhoneText>

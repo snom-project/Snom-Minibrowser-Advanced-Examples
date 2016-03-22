@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu title="$(lang:menu100_settings)">
+  <Menu name="$(lang:preferences_settings)">
+    <MenuItem name="$(lang:menu100_timezone)">
+      <Action>timezone</Action>
+    </MenuItem>
+    <MenuItem name="$(lang:menu100_dialtone)">
+      <Action>dialtone</Action>
+    </MenuItem>
+    <MenuItem name="$(lang:menu_gen_ringtone)">
+      <Action>ringtone</Action>
+    </MenuItem>
+    <MenuItem name="$(lang:language)">
+      <Action>language</Action>
+    </MenuItem>
+    <Menu name="$(lang:display_settings)">
+      <MenuItem name="$(lang:use_backlight) $(lang:backlight_when_active)">
+        <Action>backlight_active</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:use_backlight) $(lang:backlight_when_idle)">
+        <Action>backlight_idle</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:menu_gen_contrast)">
+        <Action>contrast</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:use_backlight)">
+        <Action>use_backlight</Action>
+      </MenuItem>
+    </Menu>
+    <MenuItem name="$(lang:menu_equalizer)">
+      <Action>equalizer</Action>
+    </MenuItem>
+  </Menu>
+  <Menu name="$(lang:call_features_settings)">
+    <Menu name="$(lang:redirect_settings)">
+      <Menu name="$(lang:redirect_all)">
+        <MenuItem name="$(lang:do_redirect) [$(set_yes_no:redirect_allways)]">
+          <Action>redirect_all</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:redirect_target)">
+          <Action>redirect_all_target</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:do_redirect) [$(set_yes_no:server_managed_fwd_all_state)]">
+          <Action>sm_redirect_all</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:redirect_target)">
+          <Action>sm_redirect_all_target</Action>
+        </MenuItem>
+      </Menu>
+      <Menu name="$(lang:redirect_busy)">
+        <MenuItem name="$(lang:do_redirect) [$(set_yes_no:redirect_on_busy)]">
+          <Action>redirect_busy</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:redirect_target)">
+          <Action>redirect_busy_target</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:do_redirect) [$(set_yes_no:server_managed_fwd_busy_state)]">
+          <Action>sm_redirect_busy</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:redirect_target)">
+          <Action>sm_redirect_busy_target</Action>
+        </MenuItem>
+      </Menu>
+      <Menu name="$(lang:redirect_time)">
+        <MenuItem name="$(lang:do_redirect) [$(set_yes_no:redirect_on_timeout)]">
+          <Action>redirect_time</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:redirect_target)">
+          <Action>redirect_time_target</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:menu100_red_time)">
+          <Action>redirect_time_delay</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:do_redirect) [$(set_yes_no:server_managed_fwd_time_state)]">
+          <Action>sm_redirect_time</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:redirect_target)">
+          <Action>sm_redirect_time_target</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:menu100_red_time)">
+          <Action>sm_redirect_time_delay</Action>
+        </MenuItem>
+      </Menu>
+    </Menu>
+    <Menu name="$(lang:outgoing_calls_settings)">
+      <MenuItem name="$(lang:auto_dial)">
+        <Action>auto_dial</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:guess_number) [$(set_on_off:guess_number)]">
+        <Action>guess_number</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:call_completion) [$(set_on_off:call_completion)]">
+        <Action>call_completion</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:privacy_out) [$(set_yes_no:privacy_out)]">
+        <Action>privacy_out</Action>
+      </MenuItem>
+    </Menu>
+    <Menu name="$(lang:incoming_calls_settings)">
+      <MenuItem name="$(lang:privacy_in) [$(set_yes_no:privacy_in)]">
+        <Action>privacy_in</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:call_waiting)">
+        <Action>call_waiting</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:deny_all)">
+        <Action>deny_all</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:auto_connect_indication) [$(set_yes_no:auto_connect_indication)]">
+        <Action>auto_connect_indication</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:auto_connect_type)">
+        <Action>auto_connect_type</Action>
+      </MenuItem>
+    </Menu>
+  </Menu>
+  <If condition="is_admin">
+    <Menu name="$(lang:identity_settings)">
+      <MenuItem name="$(lang:sel100_activeline)">
+        <Action>active_line</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:sel100_reregister_line)">
+        <Action>reregister_line</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:sel100_edit_line)">
+        <Action>edit_line</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:sel100_logoff_one)">
+        <Action>logoff_one</Action>
+      </MenuItem>
+      <MenuItem name="$(lang:sel100_logoff_all)">
+        <Action>logoff_all</Action>
+      </MenuItem>
+    </Menu>
+    <Menu name="$(lang:network_settings)">
+      <MenuItem name="$(lang:ip_settings_wizzard)">
+        <Action>ip_settings</Action>
+      </MenuItem>
+      <Menu name="$(lang:webserver_settings)">
+        <MenuItem name="$(lang:menu100_webserver_type)">
+          <Action>webserver_type</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:http_user)">
+          <Action>webserver_user</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:http_pass)">
+          <Action>webserver_pass</Action>
+        </MenuItem>
+      </Menu>
+      <Menu name="$(lang:vlan_settings)">
+        <MenuItem name="$(lang:vlan_id)">
+          <Action>vlan_id</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:vlan_qos)">
+          <Action>vlan_qos</Action>
+        </MenuItem>
+        <MenuItem name="$(lang:vlan_reset)">
+          <Action>vlan_reset</Action>
+        </MenuItem>
+      </Menu>
+      <MenuItem name="$(lang:wlan_settings)">
+        <Action>wlan_settings</Action>
+      </MenuItem>
+    </Menu>
+  </If>
+  <Menu name="$(lang:maintenance_settings)">
+    <MenuItem name="$(lang:system_information_menu)">
+      <Action>sysinfo</Action>
+    </MenuItem>
+    <If condition="!is_admin">
+      <MenuItem name="$(lang:sel100_admin_mode)" id="mode">
+        <Action>admin_mode</Action>
+      </MenuItem>
+    </If>
+    <If condition="is_admin">
+      <MenuItem name="$(lang:sel100_user_mode)" id="mode">
+        <Action>user_mode</Action>
+      </MenuItem>
+    </If>
+    <MenuItem name="$(lang:sel100_reboot)">
+      <Action>reboot</Action>
+    </MenuItem>
+    <If condition="is_admin">
+      <MenuItem name="$(lang:reset_settings)">
+        <Action>reset_settings</Action>
+      </MenuItem>
+    </If>
+    <If condition="update_available">
+      <MenuItem name="$(lang:update_header)">
+        <Action>software_update</Action>
+      </MenuItem>
+    </If>
+  </Menu>
+</SnomIPPhoneMenu>

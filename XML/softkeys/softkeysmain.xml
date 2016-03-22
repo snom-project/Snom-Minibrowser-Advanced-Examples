@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu>
+<Title>Faults Menu</Title>
+<MenuItem>
+<Name>Softkeys</Name>
+<URL>http://10.110.22.8/minibrowser/regression/softkeys/softkeys.php?text=myText</URL>
+</MenuItem>
+<MenuItem>
+<Name>Softkeys Menu</Name>
+<URL>http://10.110.22.8/minibrowser/regression/softkeys/softkeys_menu.php?text=myText</URL>
+</MenuItem>
+<SoftKeyItem>
+<Name>#</Name>
+<URL>http://10.110.22.8/minibrowser/label.xml</URL>
+</SoftKeyItem>
+<SoftKeyItem>
+<Name>*</Name>
+<URL>http://10.110.22.8/minibrowser/start.xml</URL>
+</SoftKeyItem>
+</SnomIPPhoneMenu>
+

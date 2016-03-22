@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu>
+<Title>Faults Menu</Title>
+<MenuItem>
+<Name>Empty Dir</Name>
+<URL>http://10.110.22.8/minibrowser/regression/faults/empty_directory.xml</URL>
+</MenuItem>
+<MenuItem>
+<Name>Empty Image</Name>
+<URL>http://10.110.22.8/minibrowser/regression/faults/empty_image.xml</URL>
+</MenuItem>
+<MenuItem>
+<Name>Empty Imagefile</Name>
+<URL>http://10.110.22.8/minibrowser/regression/faults/empty_imagefile.xml</URL>
+</MenuItem>
+<MenuItem>
+<Name>Empty Input</Name>
+<URL>http://10.110.22.8/minibrowser/regression/faults/empty_input.xml</URL>
+</MenuItem>
+<MenuItem>
+<Name>Empty Menu</Name>
+<URL>http://10.110.22.8/minibrowser/regression/faults/empty_menu.xml</URL>
+</MenuItem>
+<MenuItem>
+<Name>Empty Text</Name>
+<URL>http://10.110.22.8/minibrowser/regression/faults/empty_text.xml</URL>
+</MenuItem>
+<SoftKeyItem>
+<Name>#</Name>
+<URL>http://10.110.22.8/minibrowser/label.xml</URL>
+</SoftKeyItem>
+<SoftKeyItem>
+<Name>*</Name>
+<URL>http://10.110.22.8/minibrowser/start.xml</URL>
+</SoftKeyItem>
+</SnomIPPhoneMenu>
+

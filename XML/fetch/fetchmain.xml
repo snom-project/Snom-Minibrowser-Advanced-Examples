@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu>
+<Title>Faults Menu</Title>
+<MenuItem>
+<Name>Refresh Dir</Name>
+<URL>http://10.110.22.8/minibrowser/regression/fetch/refresh_directory.php</URL>
+</MenuItem>
+<MenuItem>
+<Name>Refresh Menu</Name>
+<URL>http://10.110.22.8/minibrowser/regression/fetch/refresh_menu.php</URL>
+</MenuItem>
+<MenuItem>
+<Name>Refresh Text</Name>
+<URL>http://10.110.22.8/minibrowser/regression/fetch/refresh_text.php</URL>
+</MenuItem>
+<MenuItem>
+<Name>Spam Refresh Text</Name>
+<URL>http://10.110.22.8/minibrowser/regression/fetch/refreshspam_text.php</URL>
+</MenuItem>
+<SoftKeyItem>
+<Name>#</Name>
+<URL>http://10.110.22.8/minibrowser/label.xml</URL>
+</SoftKeyItem>
+<SoftKeyItem>
+<Name>*</Name>
+<URL>http://10.110.22.8/minibrowser/start.xml</URL>
+</SoftKeyItem>
+</SnomIPPhoneMenu>
+
