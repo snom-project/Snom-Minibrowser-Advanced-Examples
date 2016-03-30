@@ -9,7 +9,7 @@
 > A curated list of the snom.io awesome lists
 
 - [What is an awesome snom.io list?](snomioawesome.md)
-- [Contribution guide](snomiocontributing.md)
+- [Contribution guide](contributing.md)
 
 
 ## Table of Contents
