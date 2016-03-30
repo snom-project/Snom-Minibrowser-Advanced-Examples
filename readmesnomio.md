@@ -6,7 +6,7 @@
 	<br>
 </h1>
 
-> A curated list of awesome lists
+> A curated list of the snom.io awesome lists
 
 - [What is an awesome snom.io list?](snomioawesome.md)
 - [Contribution guide](snomiocontributing.md)
@@ -34,7 +34,6 @@ We have compiled the following documentation and tools for you to quick start yo
 ## Personal Applications
 
 - [Snom Phone Book](https://github.com/Snomio/snomPhoneBook)
-	- [Containers](https://github.com/Friz-zy/awesome-linux-containers)
 
 ## IoT Devices Sensors and Control Applications
 
@@ -67,6 +66,6 @@ We have compiled the following documentation and tools for you to quick start yo
 
 To the extent possible under law, [Snom Technology AG](http://snom.com) has waived all copyright and related or neighboring rights to this work.
 
-Snom.io is proudly using sindresorhus/awesome  
+###### Snom.io is proudly using sindresorhus/awesome  
 - [Buy a sticker](https://www.stickermule.com/marketplace/10034-awesome)
 
