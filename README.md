@@ -1,5 +1,5 @@
-# Snom Minibrowser Advanced examples
-A collection of Snom minibrowser essentials. The Snom minibrowser hello word Examples.
+# Snom Minibrowser Advanced Examples
+A collection of dynamic Snom minibrowser examples using php. 
 
 Start by adding a Action URL Key on your phone pointing to your server
 Example: http://downloads.snom.com/Vodafone/XML/menu.php
