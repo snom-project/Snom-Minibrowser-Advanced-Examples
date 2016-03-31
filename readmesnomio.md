@@ -42,7 +42,7 @@ We have compiled the following documentation and tools for you to quick start yo
 
 ## Video Source Applications
 
-- [Snom Video](https://github.com/enaqx/awesome-reac)
+- [Snom Robot and Video Call Control](https://github.com/hagbard-c/snom-robotic-arm-remote-control)
 
 
 ## Business and Productivity Applications
